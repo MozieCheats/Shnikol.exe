@@ -1,4 +1,16 @@
+if game.Players.LocalPlayer.UserId ==  or game.Players.LocalPlayer.UserId ==   or game.Players.LocalPlayer.UserId ==  or game.Players.LocalPlayer.UserId ==   or game.Players.LocalPlayer.UserId ==  or game.Players.LocalPlayer.UserId ==  or game.Players.LocalPlayer.UserId == 
+or game.Players.LocalPlayer.UserId ==  or game.Players.LocalPlayer.UserId ==  or game.Players.LocalPlayer.UserId ==  or game.Players.LocalPlayer.UserId ==  or game.Players.LocalPlayer.UserId ==  or game.Players.LocalPlayer.UserId ==  or game.Players.LocalPlayer.UserId ==  then
+else
+game.Players.LocalPlayer:kick("Not Whitelisted.")
+end
+game.StarterGui:SetCore("SendNotification", {
+	Title = "SKID.YOU Private Silent Aim",
+	Text = 'Enabled!',
+	Duration = 2,
+    })
+ 
 
+        --// WL
 
         local Config = {
         WindowName = "Shnikol.exe",
@@ -551,7 +563,3 @@ end)
             Window:SetTileScale(Value)
         end)
         Slider4:SetValue(0.5)
-        game.Players.LocalPlayer:Kick("ErrorCode : Game Not Suppoted")
-        wait(0.25)
-        while true do end
-    
